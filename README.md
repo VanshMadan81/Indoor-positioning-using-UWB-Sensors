@@ -1,10 +1,8 @@
-# Indoor-positioning-using-UWB-Sensors
 # 🚁 UWB-Based Drone Localization Using Extended Kalman Filter in ROS 2
 
 [![ROS 2 Humble](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/)
 [![Gazebo Fortress](https://img.shields.io/badge/Gazebo-Fortress-orange.svg)](https://gazebosim.org/)
 [![Python](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
 ## 📌 Overview
 
@@ -19,7 +17,7 @@ The project simulates UWB ranging, processes noisy distance measurements, estima
 
 ---
 
-## ✨ Features
+## Features
 
 - UWB anchor-based localization
 - ROS 2 Humble compatible
@@ -34,7 +32,7 @@ The project simulates UWB ranging, processes noisy distance measurements, estima
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
                 UWB Anchors
@@ -95,26 +93,7 @@ uwb_localization/
 
 ---
 
-# 🛰️ UWB Anchor Configuration
-
-The simulation uses six fixed UWB anchors positioned around the operating area.
-
-Example:
-
-| Anchor | X (m) | Y (m) |
-|---------|------:|------:|
-| A1 | -3 | -3 |
-| A2 | 3 | -3 |
-| A3 | -3 | 0 |
-| A4 | 3 | 0 |
-| A5 | -3 | 3 |
-| A6 | 3 | 3 |
-
-The anchor configuration can be modified to suit different environments.
-
----
-
-# 📡 ROS 2 Topics
+# ROS 2 Topics
 
 | Topic | Description |
 |--------|-------------|
@@ -126,7 +105,7 @@ The anchor configuration can be modified to suit different environments.
 
 ---
 
-# 🚀 Running the Simulation
+# Running the Simulation
 
 ## Clone the repository
 
@@ -179,7 +158,7 @@ Fuses previous state estimates with current UWB measurements to improve localiza
 
 ---
 
-# 📈 Results
+# Results
 
 The project compares:
 
@@ -193,7 +172,7 @@ The EKF consistently produces smoother and more accurate trajectories than the L
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - ROS 2 Humble
 - Gazebo Fortress
@@ -205,63 +184,3 @@ The EKF consistently produces smoother and more accurate trajectories than the L
 - visualization_msgs
 
 ---
-
-# 🔮 Future Work
-
-- 3D localization
-- Bias-aware EKF
-- Anchor Self Localization (ASL)
-- Real Pozyx UWB hardware integration
-- PX4/ArduPilot drone integration
-- Multi-drone localization
-- Adaptive noise estimation
-- SLAM integration
-
----
-
-# 📷 Demo
-
-Add screenshots or GIFs here.
-
-```
-docs/images/rviz.png
-docs/images/gazebo.png
-docs/images/localization.gif
-```
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Submit a Pull Request.
-
----
-
-# 📄 License
-
-This project is released under the MIT License.
-
----
-
-# 👨‍💻 Author
-
-**Vansh Madan**
-
-Indian Institute of Technology Kanpur (IIT Kanpur)
-
-GitHub: https://github.com/<your-github-username>
-
----
-
-## ⭐ Acknowledgements
-
-- ROS 2 Community
-- Gazebo Sim
-- Open Robotics
-- Pozyx UWB Documentation
-- ArduPilot & PX4 Open Source Communities
