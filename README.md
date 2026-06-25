@@ -1,10 +1,10 @@
-# 🚁 UWB-Based Drone Localization Using Extended Kalman Filter in ROS 2
+# UWB-Based Drone Localization Using Extended Kalman Filter in ROS 2
 
 [![ROS 2 Humble](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/)
 [![Gazebo Fortress](https://img.shields.io/badge/Gazebo-Fortress-orange.svg)](https://gazebosim.org/)
 [![Python](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
 
-## 📌 Overview
+## Overview
 
 This project presents a simulation framework for **Ultra-Wideband (UWB) based drone localization** using **ROS 2 Humble** and **Gazebo Fortress**. The objective is to estimate the real-time position of an aerial vehicle in GPS-denied environments using distance measurements from multiple UWB anchors.
 
@@ -54,7 +54,7 @@ The project simulates UWB ranging, processes noisy distance measurements, estima
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 uwb_localization/
@@ -81,7 +81,7 @@ uwb_localization/
 
 ---
 
-# ⚙️ Localization Pipeline
+#  Localization Pipeline
 
 1. Generate UWB distance measurements.
 2. Add configurable Gaussian noise.
@@ -131,7 +131,7 @@ ros2 launch uwb_localization localization.launch.py
 
 ---
 
-# 📊 Localization Methods
+# Localization Methods
 
 ## Least Squares (LS)
 
