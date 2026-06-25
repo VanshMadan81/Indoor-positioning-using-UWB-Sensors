@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating uwb_localization.egg-info
+writing uwb_localization.egg-info/PKG-INFO
+writing dependency_links to uwb_localization.egg-info/dependency_links.txt
+writing entry points to uwb_localization.egg-info/entry_points.txt
+writing requirements to uwb_localization.egg-info/requires.txt
+writing top-level names to uwb_localization.egg-info/top_level.txt
+writing manifest file 'uwb_localization.egg-info/SOURCES.txt'
+reading manifest file 'uwb_localization.egg-info/SOURCES.txt'
+writing manifest file 'uwb_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vansh/ros2_ws/install/uwb_localization/lib/python3.10/site-packages/uwb-localization.egg-link (link to .)
+Installing anchor_distance_simulator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing anchor_rmse_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing anchor_self_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing diagnostic_range_validator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing ekf_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing ekf_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing frame_registration script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing frame_validation script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing least_squares_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing position_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing rviz_visualizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+Installing uwb_simulator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+
+Installed /home/vansh/ros2_ws/build/uwb_localization
+running symlink_data
+creating /home/vansh/ros2_ws/install/uwb_localization/share/ament_index
+creating /home/vansh/ros2_ws/install/uwb_localization/share/ament_index/resource_index
+creating /home/vansh/ros2_ws/install/uwb_localization/share/ament_index/resource_index/packages
+symbolically linking /home/vansh/ros2_ws/build/uwb_localization/resource/uwb_localization -> /home/vansh/ros2_ws/install/uwb_localization/share/ament_index/resource_index/packages
+symbolically linking /home/vansh/ros2_ws/build/uwb_localization/package.xml -> /home/vansh/ros2_ws/install/uwb_localization/share/uwb_localization

@@ -1,0 +1,28 @@
+[0.443s] Invoking command in '/home/vansh/ros2_ws/build/uwb_localization': PYTHONPATH=/home/vansh/ros2_ws/build/uwb_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vansh/ros2_ws/install/uwb_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vansh/ros2_ws/build/uwb_localization/build --no-deps symlink_data
+[0.622s] running develop
+[0.725s] running egg_info
+[0.725s] writing uwb_localization.egg-info/PKG-INFO
+[0.726s] writing dependency_links to uwb_localization.egg-info/dependency_links.txt
+[0.726s] writing entry points to uwb_localization.egg-info/entry_points.txt
+[0.726s] writing requirements to uwb_localization.egg-info/requires.txt
+[0.726s] writing top-level names to uwb_localization.egg-info/top_level.txt
+[0.728s] reading manifest file 'uwb_localization.egg-info/SOURCES.txt'
+[0.729s] writing manifest file 'uwb_localization.egg-info/SOURCES.txt'
+[0.731s] running build_ext
+[0.731s] Creating /home/vansh/ros2_ws/install/uwb_localization/lib/python3.10/site-packages/uwb-localization.egg-link (link to .)
+[0.731s] Installing anchor_distance_simulator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing anchor_rmse_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing anchor_self_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing diagnostic_range_validator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing ekf_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing ekf_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing frame_registration script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing frame_validation script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing least_squares_localizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing position_evaluator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing rviz_visualizer script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] Installing uwb_simulator script to /home/vansh/ros2_ws/install/uwb_localization/lib/uwb_localization
+[0.732s] 
+[0.732s] Installed /home/vansh/ros2_ws/build/uwb_localization
+[0.733s] running symlink_data
+[0.755s] Invoked command in '/home/vansh/ros2_ws/build/uwb_localization' returned '0': PYTHONPATH=/home/vansh/ros2_ws/build/uwb_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vansh/ros2_ws/install/uwb_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vansh/ros2_ws/build/uwb_localization/build --no-deps symlink_data

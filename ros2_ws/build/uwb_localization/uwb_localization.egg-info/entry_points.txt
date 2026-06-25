@@ -1,0 +1,14 @@
+[console_scripts]
+anchor_distance_simulator = uwb_localization.anchor_distance_simulator:main
+anchor_rmse_evaluator = uwb_localization.anchor_rmse_evaluator:main
+anchor_self_localizer = uwb_localization.anchor_self_localizer:main
+diagnostic_range_validator = uwb_localization.diagnostic_range_validator:main
+ekf_evaluator = uwb_localization.ekf_evaluator:main
+ekf_localizer = uwb_localization.ekf_localizer:main
+frame_registration = uwb_localization.frame_registration:main
+frame_validation = uwb_localization.frame_validation:main
+least_squares_localizer = uwb_localization.least_squares_localizer:main
+position_evaluator = uwb_localization.position_evaluator:main
+rviz_visualizer = uwb_localization.rviz_visualizer:main
+uwb_simulator = uwb_localization.uwb_simulator:main
+

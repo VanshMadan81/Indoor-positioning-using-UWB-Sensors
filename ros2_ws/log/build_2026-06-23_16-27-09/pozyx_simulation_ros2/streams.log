@@ -1,0 +1,24 @@
+[0.810s] Invoking command in '/home/vansh/ros2_ws/build/pozyx_simulation_ros2': PYTHONPATH=/home/vansh/ros2_ws/build/pozyx_simulation_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vansh/ros2_ws/install/pozyx_simulation_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vansh/ros2_ws/build/pozyx_simulation_ros2/build --no-deps symlink_data
+[0.989s] running develop
+[1.089s] running egg_info
+[1.089s] creating pozyx_simulation_ros2.egg-info
+[1.089s] writing pozyx_simulation_ros2.egg-info/PKG-INFO
+[1.089s] writing dependency_links to pozyx_simulation_ros2.egg-info/dependency_links.txt
+[1.090s] writing entry points to pozyx_simulation_ros2.egg-info/entry_points.txt
+[1.090s] writing requirements to pozyx_simulation_ros2.egg-info/requires.txt
+[1.090s] writing top-level names to pozyx_simulation_ros2.egg-info/top_level.txt
+[1.090s] writing manifest file 'pozyx_simulation_ros2.egg-info/SOURCES.txt'
+[1.091s] reading manifest file 'pozyx_simulation_ros2.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'pozyx_simulation_ros2.egg-info/SOURCES.txt'
+[1.092s] running build_ext
+[1.093s] Creating /home/vansh/ros2_ws/install/pozyx_simulation_ros2/lib/python3.10/site-packages/pozyx-simulation-ros2.egg-link (link to .)
+[1.093s] Installing uwb_simulation script to /home/vansh/ros2_ws/install/pozyx_simulation_ros2/lib/pozyx_simulation_ros2
+[1.093s] 
+[1.093s] Installed /home/vansh/ros2_ws/build/pozyx_simulation_ros2
+[1.094s] running symlink_data
+[1.094s] creating /home/vansh/ros2_ws/install/pozyx_simulation_ros2/share/ament_index
+[1.094s] creating /home/vansh/ros2_ws/install/pozyx_simulation_ros2/share/ament_index/resource_index
+[1.094s] creating /home/vansh/ros2_ws/install/pozyx_simulation_ros2/share/ament_index/resource_index/packages
+[1.094s] symbolically linking /home/vansh/ros2_ws/build/pozyx_simulation_ros2/resource/pozyx_simulation_ros2 -> /home/vansh/ros2_ws/install/pozyx_simulation_ros2/share/ament_index/resource_index/packages
+[1.095s] symbolically linking /home/vansh/ros2_ws/build/pozyx_simulation_ros2/package.xml -> /home/vansh/ros2_ws/install/pozyx_simulation_ros2/share/pozyx_simulation_ros2
+[1.133s] Invoked command in '/home/vansh/ros2_ws/build/pozyx_simulation_ros2' returned '0': PYTHONPATH=/home/vansh/ros2_ws/build/pozyx_simulation_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vansh/ros2_ws/install/pozyx_simulation_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vansh/ros2_ws/build/pozyx_simulation_ros2/build --no-deps symlink_data
